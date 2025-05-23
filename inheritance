@@ -1,0 +1,18 @@
+ class moving {
+     void honk(){
+    System.out.println("honking...");
+
+}}
+    
+ class car  extends  moving{
+    void accelerate(){
+        System.out.println("accelerating");
+    }
+}
+public class vehicle{
+public static void vehicle (String args[]){
+    car car = new car();
+    car.honk();
+    car.accelerate();}
+}
+ 
