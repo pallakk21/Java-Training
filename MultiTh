@@ -1,0 +1,16 @@
+public class multithreading {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(() -> {
+            try {
+                System.out.println("hello");
+                Thread.sleep(1000);
+            } catch (Exception e) {
+                System.out.println("error ");
+            }
+            System.out.println("heya");
+         System.out.println("hii");
+    });
+    t1.start();
+       
+}
+}
