@@ -1,0 +1,8 @@
+class Hello {
+    public static void main(String[] args) {
+    ArrayList<String> list = new ArrayList<>();
+    list.add("Palak");
+    list.add("rudransh");
+    list.add("sirohia");
+    System.out.println(list);
+}}
